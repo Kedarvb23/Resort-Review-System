@@ -68,5 +68,5 @@ To enhance the user experience, we decided to integrate dynamic maps using the M
 Authentication:
 The authentication system was built with Passport.js to manage user sessions and authorization securely. User roles are also factored in to ensure that only the author of a resort or review can modify or delete it, adding a layer of security and trust to user-generated content.
 
-Conclusion
+Conclusion: 
 The Resort Review System is a comprehensive platform that provides users with an interactive and informative way to explore resorts, leave feedback, and contribute to the community. With robust CRUD functionality, user authentication, and modern web technologies, this project offers both a technical challenge and a valuable real-world application.
