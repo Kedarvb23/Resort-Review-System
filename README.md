@@ -15,10 +15,11 @@ File Descriptions :
 1. app.js
 The app.js file is the entry point for the entire application. It initializes the Express server, sets up middleware, connects to the MongoDB database, and configures routes. Key functionalities include:
 
-Setting up middleware like express-session, passport, and connect-flash for session management and user authentication.
-Establishing connection to MongoDB using Mongoose.
-Defining routes for resorts and user-related operations.
-Handling error pages for any incorrect routes.
+- Setting up middleware like express-session, passport, and connect-flash for session management and user authentication.
+- Establishing connection to MongoDB using Mongoose.
+- Defining routes for resorts and user-related operations.
+- Handling error pages for any incorrect routes.
+  
 2. models/Resort.js
 This file defines the schema for resorts using Mongoose. Each resort object in the database consists of attributes such as the resort name, price, location, description, and image URLs. Additionally, the resort schema has a reference to the reviews associated with it, which is handled by a separate model.
 
@@ -34,13 +35,14 @@ This file manages routes for creating, updating, and deleting reviews. It is res
 6. views/resorts/
 This folder contains the EJS templates for rendering resort-related pages. The key templates are:
 
-index.ejs: Displays a list of all resorts, each with basic details and links to view more information.
-show.ejs: Renders detailed information about a single resort, including user-submitted reviews.
-new.ejs and edit.ejs: Provide forms for adding and updating resort information, respectively.
+- index.ejs: Displays a list of all resorts, each with basic details and links to view more information.
+- show.ejs: Renders detailed information about a single resort, including user-submitted reviews.
+- new.ejs and edit.ejs: Provide forms for adding and updating resort information, respectively.
+  
 7. views/reviews/
 This folder contains templates for managing reviews. The primary file is:
 
-edit.ejs: A form for editing existing reviews of resorts.
+- edit.ejs: A form for editing existing reviews of resorts.
 8. views/partials/
 This directory holds the partial templates like the header and footer, which are used across multiple pages for consistent design. It also includes the flash messages that alert users about actions like successful login or errors during submission.
 
